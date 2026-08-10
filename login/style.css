@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu Mono", monospace;
+    /* border: 1px solid red; */
+}
+
+:root {
+    --red: #FF5A5A;
+    --orange: #FF8B5A;
+    --yellow: #FFD45A;
+    --gold: #FFD45A;
+    --blue: #BBE0EF;
+    --black: #000000;
+    --gray: #ffffffdc;
+    --cyan: cyan;
+}
+
+body {
+    background-color: var(--gray);
+}
+
+/* Basic style cs */
+a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: var(--black);
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.between {
+    justify-content: center;
+}
