@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Ubuntu Mono", monospace;
-    border: .1rem solid red;
+    /* border: .1rem solid red; */
 }
 
 :root {
