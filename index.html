@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rice bag  perches website </title>
+    <title>Rice bag perches website </title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <!-- Header Part -->
-     <header >
+    <header>
         <nav class="navbar flex between wrapper">
             <a href="" class="logo">RiceBags</a>
+            <!-- Desktop menu  -->
             <ul class="navlist flex gap-3 ">
                 <li>
                     <a href="#">Home</a>
@@ -28,29 +31,134 @@
                     <a href="#">Contacts</a>
                 </li>
             </ul>
-            <div class="action-btn-con flex">
+            <div class="desktop-action-btn-con flex">
                 <a href="#" class="cart-icon-link">
                     <ion-icon name="bag"></ion-icon>
                     <span class="cart-value">1</span>
                 </a>
                 <a href="#" class="btn" id="sign-in-icon">
-                    Sign in <ion-icon name="log-in" id="login-icon"></ion-icon>
+                    Sign in
+                    &nbsp; <!--non-breaking-space -->
+                    <ion-icon name="log-in" id="login-icon"></ion-icon>
                 </a>
-                <a href="#" class="list-icon" >
-                    <ion-icon name="list"></ion-icon>
+                <a href="#" class="list-icon">
+                    <ion-icon name="menu-outline"></ion-icon>
                 </a>
             </div>
+            <!-- Mobile menu  -->
+            <ul class="mobile-menu">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Menu</a>
+                </li>
+                <li>
+                    <a href="#">Services</a>
+                </li>
+                <li>
+                    <a href="#">About us</a>
+                </li>
+                <li>
+                    <a href="#">Contacts</a>
+                </li>
+                <li>
+                    <a href="#" class="btn">
+                        Sign in
+                        &nbsp; <!--non-breaking-space -->
+                        <ion-icon name="log-in" id="login-icon"></ion-icon>
+                    </a>
+                </li>
+            </ul>
         </nav>
-     </header>
-     <!-- Sections Parts -->
-      <main>
+    </header>
+    <!-- Sections Parts -->
+    <main>
+        <section>
+            <div class="hero-section flex wrapper gap-4">
+                <div class="content">
+                    <h1>Premium <span> Rice Bags</span> for Every Need </h1>
+                    <p class="paragraph">
+                        Experience the finest selection of premium rice sourced directly from trusted farms.<br>Whether
+                        for your home, restaurant, or wholesale business, we provide fresh, nutritious,<br> and
+                        high-quality
+                        rice at competitive prices.
+                    </p>
+                    <div class="flex gap-2">
+                        <a href="#" class="btn">Get a Free Quote</a>
 
-      </main>
-      <!-- Footer Part -->
-       <footer>
+                        <a href="#" class="social-icon">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <ion-icon name="logo-youtube"></ion-icon>
+                        </a>
+                    </div>
+                </div>
+                <!-- Hero section image  -->
+                <div class="image-container">
+                    <img src="./images/ricebag-hero-section.webp" alt="rice bag">
+                </div>
 
-       </footer>
- <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+            </div>
+        </section>
+
+        <section>
+            <div class="wrapper pad-top ">
+                <div class="text-center">
+                    <h5>Our Services</h5>
+                    <h2>How does it work ?</h2>
+                </div>
+                <div class="pad-top flex between text-center service-card-con">
+                    <div class="service-card">
+                        <div class="images-container img-size">
+                            <img src="./images/fast-delivery-icon-png.png" alt="">
+                        </div>
+                        <h3>
+                            Easy to Order
+                        </h3>
+                        <p class="paragraph">
+                            You only need a few <br>steps in ordering rice bag.
+                        </p>
+                    </div>
+                    <div class="service-card">
+                        <div class="images-container img-size">
+                            <img src="./images/fast-delivery-icon-png.png" alt="">
+                        </div>
+                        <h3>
+                            Easy to Order
+                        </h3>
+                        <p class="paragraph">
+                            You only need a few <br> steps in ordering rice bag.
+                        </p>
+                    </div>
+                    <div class="service-card">
+                        <div class="images-container img-size">
+                            <img src="./images/fast-delivery-icon-png.png" alt="">
+                        </div>
+                        <h3>
+                            Easy to Order
+                        </h3>
+                        <p class="paragraph">
+                            You only need a few <br> steps in ordering rice bag.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer Part -->
+    <footer>
+
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
+
 </html>
